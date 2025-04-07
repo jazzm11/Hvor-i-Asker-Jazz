@@ -6,8 +6,8 @@ export default function App() {
   const tasks = [
     {
       question: "Hvor i Asker?",
-      answer: "Føyka",
-      options: ["Føyka", "Trekanten", "Mccern"],
+      answer: "Føyka Stadion",
+      options: ["Føyka Stadion", "Leikvollhallen", "Varner Arena"],
       video: "public/føyka.mp4",
     },
     {
@@ -19,7 +19,7 @@ export default function App() {
     {
       question: "Hvor i Asker?",
       answer: "Venskaben",
-      options: ["Venskaben", "Asker Kirke", "Teodor sitt hus"],
+      options: ["Venskaben", "Asker Kirke", "Asker Rådhus"],
       video: "public/venskaben.mp4",
     },
   ];
@@ -90,7 +90,8 @@ export default function App() {
               controls
               autoPlay
               muted
-              width="600"z
+              width="600"
+              z
               height="400"
             >
               Your browser does not support the video tag.
