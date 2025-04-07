@@ -1,0 +1,175 @@
+@import url("https://use.typekit.net/wmt6vkt.css");
+/* General styles */
+body {
+  margin: 0;
+  font-family: "twenyfournonetyone", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #3d5bad; /* Light blue background */
+  color: #01579b; /* Dark blue text */
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Start screen styles */
+.start_title {
+  font-size: 36px;
+  color: #e0f7fa; /* Dark blue title */
+  margin-bottom: 20px;
+}
+.start {
+  text-align: center;
+  width: 50vw;
+}
+
+.start_box {
+  background-color: #0288d1; /* Blue box background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.start_button {
+  width: 100%;
+  background-color: #01579b; /* Dark blue button */
+  color: white;
+  border: none;
+  padding: 20px 50px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.start_button:hover {
+  background-color: #0277bd; /* Lighter blue on hover */
+}
+
+/* Game content styles */
+.game_content {
+  text-align: center;
+}
+
+.game_content h2,
+.game_content p {
+  color: #e0f7fa;
+  font-size: x-large; /* Dark blue heading */
+}
+
+.video {
+  margin: 20px 0;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #0288d1; /* Blue border */
+  border-radius: 5px;
+  outline: none;
+  width: 80%;
+  max-width: 400px;
+}
+
+input[type="text"]:focus {
+  border-color: #01579b; /* Darker blue on focus */
+}
+
+button {
+  font-family: "twenyfournonetyone", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.check_button {
+  background-color: #01579b; /* Dark blue button */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.check_button:hover {
+  background-color: #0277bd; /* Lighter blue on hover */
+}
+
+.text-lg {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.option_button {
+  background-color: #0288d1; /* Blue background */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.option_button:hover {
+  background-color: #01579b; /* Darker blue on hover */
+}
+
+.header {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.logo {
+  width: 40px; /* Adjust the size of the logo */
+  height: auto;
+  padding: 10px 0 0 20px;
+}
+
+.skip_button {
+  background-color: #ff5722; /* Orange background */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.skip_button:hover {
+  background-color: #e64a19; /* Darker orange on hover */
+}
+
+.next_button {
+  background-color: #4caf50; /* Green background */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.next_button:hover {
+  background-color: #388e3c; /* Darker green on hover */
+}
+
+.navigation_buttons {
+  margin-top: 20px;
+}
